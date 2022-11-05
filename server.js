@@ -10,9 +10,9 @@ ical.fromURL(
           name: data[i].summary,
           enddate: data[i].end,
           startdate: data[i].start,
-          description: data[i].description,
+          description: data[i].description + " ",
           external_ID: data[i].uid,
-          registrationoptions: "",
+          registrationoptions: " ",
         });
       }
     }
