@@ -2,9 +2,9 @@
   "name": "json-server-deploy",
   "version": "1.0.0",
   "description": "Simple json database to deploy to the host of your choice",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "keywords": [
     "json-server,heroku, node, REST API"
@@ -12,6 +12,7 @@
   "author": "Jesper Orb",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "json-server": "^0.17.0",
+    "node-ical": "^0.15.2"
   }
 }
