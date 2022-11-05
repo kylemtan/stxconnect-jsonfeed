@@ -6,7 +6,7 @@ module.exports = () => {
   const data = {
     "files": [
       {
-        "title": "St X Connect JSON Feed",
+        "title": "St X Connect json Feed",
         "enddate": "enddate",
         "version": "https://jsonfeed.org/version/1.1",
         "feed_url": "https://example.org/feed.json",
