@@ -1,7 +1,7 @@
 const ical = require("node-ical");
 
 ical.fromURL(
-  "https://www.stxavier.org/calendar/calendar_249.ics",
+  "https://www.stxavier.org/calendar/calendar_256.ics",
   {},
   function (err, data) {
     for (let i in data) {
