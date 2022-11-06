@@ -1,11 +1,12 @@
 const ical = require("node-ical");
 
 ical.fromURL(
-  "https://www.stxavier.org/calendar/calendar_256.ics",
+  "https://www.stxavier.org/calendar/calendar_22.ics",
   {},
   function (err, data) {
     for (let i in data) {
-      if (data[i].uid) {
+      console.log(data[i])
+      if (data[i].uid && data[i].summary.includes("Career ConneXions")) {
         db.files[0].items.push({
           name: data[i].summary,
           enddate: data[i].end,
